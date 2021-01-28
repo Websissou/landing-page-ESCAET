@@ -1,0 +1,86 @@
+/* Write some CSS below */
+body {
+	font-family: Overpass;
+	font-size: 16px;
+	margin:0px;
+}
+h1 {
+	color:#404042;
+	font-family: Chivo, sans-serif;
+	font-size: 45px;
+}
+h2 {
+	color:#404042;
+	font-family: Chivo, sans-serif;
+	font-size: 24px;
+}
+h3 {
+	color:#404042;
+	font-family: Chivo, sans-serif;
+}
+
+.banner {
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding: 100px;
+}
+
+.banner h1{
+	color: white;
+}
+
+.banner p {
+	margin-bottom: 24px 0px 40 px;
+	color: white;
+}
+
+.btn-yellow	{
+	text-decoration: none;
+	padding: 16px 48px;
+	background-color:#F9B434;
+	color: white;
+	border-radius: 4px;
+	margin-top: 40px;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.card-white	{
+	background-color: white;
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1)
+
+}
+
+.card-white img {
+	width: 180PX;
+	height: 180px;
+	border-radius: 4px;
+}
+
+.card-white h3 {
+	color: yellow;
+}
+
+.footer {
+	background-color: #404042 ;
+	color: white;
+	text-align: center;
+	padding: 24px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin: 20px; 
+}
